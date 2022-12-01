@@ -1,12 +1,16 @@
 import React from 'react'
+import HeroBanner from '../components/LandingPage/HeroBanner'
+import MainSchedule from '../components/LandingPage/MainSchedule'
+import Nav from '../components/LandingPage/MainNav'
 
 function LandingPage(props) {
   return (
     <div>
-
-<h1>St. Micheal The Archangel Website</h1>
-        <p>Designed by  <a href="https://www.luiscardona.app">Luis Cardona</a></p>
+        <HeroBanner></HeroBanner>
+        <Nav></Nav>
+        <MainSchedule></MainSchedule>
     </div>
+
   )
 }
 
