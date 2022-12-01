@@ -2,7 +2,7 @@ import React from 'react'
 
 function MainSchedule(props) {
   return (
-    <div>MainSchedule</div>
+    <div>Mass Schedule</div>
   )
 }
 

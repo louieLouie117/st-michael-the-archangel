@@ -1,10 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 function HeroBanner(props) {
+
+  const [hideText] = useState(false)
+
+
   return (
     <div>
-       <h1>St. Micheal The Archangel Website</h1>
-        <p>Designed by  <a href="https://www.luiscardona.app">Luis Cardona</a></p>
+      <h1 style={{display: hideText ? "block": 'none'}}>St. Micheal The Archangel Catholic Church</h1>
+       <img src="/assets/HeroImge.png" alt="" />
     </div>
   )
 }
