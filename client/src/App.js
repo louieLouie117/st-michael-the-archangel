@@ -1,15 +1,23 @@
 import './App.css';
-import Subscribe from './components/Subscribe';
+import Dashboard from './views/Dashboard';
+import LandingPage from './views/LandingPage';
+import {Router} from '@reach/router'
+
+// import Subscribe from './components/Subscribe';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>St. Micheal The Archangel Website</h1>
-        <p>Designed by  <a href="https://www.luiscardona.app">Luis Cardona</a></p>
+    <Router>
+      <LandingPage path="/"></LandingPage>
+      <Dashboard path="/dashboard"></Dashboard>
+    </Router>
 
-        <Subscribe></Subscribe>
-      </header>
+        {/* <Subscribe></Subscribe> */}
+
+
+  
     </div>
   );
 }

@@ -3,6 +3,8 @@ import React from 'react'
 function Subscribe(props) {
   return (
     <div className='sub-container'>
+
+      
         <button>
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4AVKGVDLUVMHS">Activate/Subscribe</a>
         </button>
