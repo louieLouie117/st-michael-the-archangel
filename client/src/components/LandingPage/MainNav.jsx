@@ -27,17 +27,17 @@ function MainNav(props) {
       <main className='NavList-Container'>
         <ul>
           <li>
-            <a href="/">Parish Staff</a>
+            <a href="/under-development">Parish Staff</a>
           </li>
           <li>
-            <a href="/">Our Ministries</a>
+            <a href="/under-development">Our Ministries</a>
           </li>
 
           <li>
-            <a href="/">Faith Formation</a>
+            <a href="/under-development">Faith Formation</a>
           </li>
           <li>
-            <a href="/">Gift Shop & Books</a>
+            <a href="/under-development">Gift Shop & Books</a>
           </li>
        
         </ul>

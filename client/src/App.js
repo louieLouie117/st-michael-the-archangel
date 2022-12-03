@@ -2,6 +2,7 @@ import './App.css';
 import Dashboard from './views/Dashboard';
 import LandingPage from './views/LandingPage';
 import {Router} from '@reach/router'
+import UnderDevelopment from './views/UnderDevelopment';
 
 // import Subscribe from './components/Subscribe';
 
@@ -12,6 +13,7 @@ function App() {
     <Router>
       <LandingPage path="/"></LandingPage>
       <Dashboard path="/dashboard"></Dashboard>
+      <UnderDevelopment path="/under-development"></UnderDevelopment>
     </Router>
 
         {/* <Subscribe></Subscribe> */}
