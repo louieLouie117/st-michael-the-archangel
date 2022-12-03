@@ -1,13 +1,20 @@
 body{
-    display: grid;
+    display: block;
     background-color: whitesmoke;
     /* mobile website */
     max-width: 45em;
     margin: 0 auto;
 }
 
-.HeroBanner-Container{
+.LandingPage-PageView{
+    display: grid;
     background-color: red;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.HeroBanner-Container{
+    display: grid;
 }
 .HeroBanner-Container>header{
     display: grid;
@@ -24,7 +31,6 @@ body{
 
 
 .HeroBanner-Container>header h1{
-   
     color: white;
     font: 1.2em sans-serif;
 }
@@ -115,8 +121,7 @@ body{
     row-gap: 30px;
     background-color: #A1C5A4;
     justify-items: center;
-    padding-bottom: 50px;
-    padding-top: 20px;
+    padding: 50px 20px 30px 20px;
 }
 
 .Schedule-Component>header h1{
@@ -145,7 +150,7 @@ body{
     background-color: white;
     border-radius: 7px;
     padding: 30px;
-    width: 70vw;
+    max-width: 70vw;
   }
 .Schedule-Container>li{
     display: grid;

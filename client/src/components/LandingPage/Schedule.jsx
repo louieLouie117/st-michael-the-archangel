@@ -32,8 +32,6 @@ function MainSchedule(props) {
             <ul className='Schedule-Container'>
               <li><p>Saturday</p> <p>4:30 PM</p></li>
               <li><p>Or by Appointment</p> <p>.</p></li>
-
-
             </ul>
         </section>
       </main>
