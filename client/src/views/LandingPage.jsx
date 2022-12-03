@@ -8,7 +8,7 @@ import LandingPageStyles from '../modules/LandingPageStyles.css'
 function LandingPage(props) {
     <LandingPageStyles></LandingPageStyles>
   return (
-    <div>
+    <div className='LandingPage-PageView'>
         <HeroBanner></HeroBanner>
         <Nav></Nav>
         <Schedule></Schedule>
