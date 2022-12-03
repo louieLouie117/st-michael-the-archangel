@@ -10,7 +10,7 @@ function HeroBanner(props) {
       <header>
       <picture>
         {/* <source media='(min-width: 1300px)' srcSet='/assets/HeroImageDesktop.png' /> */}
-        <source media='(min-width: 700px)' srcSet='/assets/HeroImageTablet.png' />
+        <source media='(min-width: 500px)' srcSet='/assets/HeroImageTablet.png' />
        <img src="/assets/HeroImageMobile.png" alt="" />
       </picture>
       <div className='WebsiteName'>
