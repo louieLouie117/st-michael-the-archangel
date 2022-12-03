@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroBanner from '../components/LandingPage/HeroBanner'
-import MainSchedule from '../components/LandingPage/MainSchedule'
+import Schedule from '../components/LandingPage/Schedule'
 import Nav from '../components/LandingPage/MainNav'
 import LandingPageStyles from '../modules/LandingPageStyles.css'
 
@@ -11,7 +11,7 @@ function LandingPage(props) {
     <div>
         <HeroBanner></HeroBanner>
         <Nav></Nav>
-        <MainSchedule></MainSchedule>
+        <Schedule></Schedule>
     </div>
 
   )
