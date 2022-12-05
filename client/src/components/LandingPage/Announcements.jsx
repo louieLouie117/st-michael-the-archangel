@@ -36,8 +36,7 @@ function Announcements(props) {
 
       <aside style={{display: calendarOptions ? "grid" : "none",
                     left: calendarOptions ? "0px" : "-300px",
-                    transition: calendarOptions ? "smooth" : "smooth",
-                    transition: calendarOptions ? "30s" : "30s"}}>
+                    }}>
 
                 <h2>Selected your calender</h2>
               
