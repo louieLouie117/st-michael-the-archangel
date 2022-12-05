@@ -169,7 +169,7 @@ body{
 }
 
 
-/* Announcements */
+/* Announcements ---------------------------------------------- */
 .Announcements-ViewPage{
     display: grid;
     margin: 30px;
@@ -200,6 +200,7 @@ body{
     overflow-y: hidden;
     max-width: 65em;
 }
+
 
 .Announcements-ViewPage>main::-webkit-scrollbar{
     display: none;
@@ -234,4 +235,41 @@ body{
     display: grid;
     align-items: center;
     height: 250px;
+}
+
+.Announcements-ViewPage>main footer button{
+    background-color: #67886A;
+    font: 1em sans-serif;
+    color: white;
+    border: none;
+    height: 40px;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+
+
+.Announcements-ViewPage>aside{
+    display: flex;
+    position: absolute;
+    left: -300px;
+    height: 50vh;
+    width: 30vw;
+    background-color: #79A27D;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.103);
+    border-radius:  0 30px 30px 0;
+
+    
+}
+
+.Announcements-ViewPage>aside h2{
+    font: 1.1em sans-serif;
+    padding-top: 30px;
+    color: white;
+}
+
+.Announcements-ViewPage>aside a button{
+    height: 40px;
+    width: 100px;
 }
