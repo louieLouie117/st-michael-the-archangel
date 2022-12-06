@@ -211,7 +211,7 @@ body{
 .Announcements-ViewPage>main ul{
     position: relative;
     display: flex;
-    column-gap: 10px;
+    /* column-gap: 10px; */
     float: left;
     margin: 0;
     
@@ -220,7 +220,7 @@ body{
 .Announcements-ViewPage>main ul li{
     background-color: white;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.103);
-    min-width: 250px;
+    min-width: 280px;
     padding: 20px;
     margin: 10px;
 
@@ -233,16 +233,19 @@ body{
 
 .Announcements-ViewPage>main ul li main{
     display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 130px;
     align-items: center;
     height: 250px;
+    justify-items: center;
 }
 
-.Announcements-ViewPage>main footer button{
+.Announcements-ViewPage>main button{
     background-color: #67886A;
     font: 1em sans-serif;
     color: white;
     border: none;
-    height: 40px;
+    height: 70px;
     padding: 10px;
     border-radius: 3px;
 
