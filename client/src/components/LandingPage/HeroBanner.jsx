@@ -14,7 +14,7 @@ function HeroBanner(props) {
        <img src="/assets/HeroImageMobile.png" alt="" />
       </picture>
       <div className='WebsiteName'>
-        <h1 style={{display: hideText ? "block": 'none'}}>St. Micheal The Archangel</h1>
+        <h1 style={{display: hideText ? "block": 'none'}}>St. Michael The Archangel</h1>
         <h2 style={{display: hideText ? "block": 'none'}}>Catholic Church</h2>
       </div>
       </header>

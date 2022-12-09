@@ -27,34 +27,34 @@ function Announcements(props) {
 
   }
 
-  const HDDec900Handler = e =>{
-    setCalendarOptions(true);
+  // const HDDec900Handler = e =>{
+  //   setCalendarOptions(true);
 
-    setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221208T150000Z%2F20221208T160000Z&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=Holy%20Day%20of%20Obligation" );
+  //   setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221208T150000Z%2F20221208T160000Z&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=Holy%20Day%20of%20Obligation" );
 
-    setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-08T16%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-08T15%3A00%3A00%2B00%3A00&subject=Holy%20Day%20of%20Obligation");
+  //   setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-08T16%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-08T15%3A00%3A00%2B00%3A00&subject=Holy%20Day%20of%20Obligation");
 
-    setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-08T16%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-08T15%3A00%3A00%2B00%3A00&subject=Holy%20Day%20of%20Obligation");
-
-
-    setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20221208T160000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20221208T150000Z&title=Holy%20Day%20of%20Obligation&v=60");
-
-  }
+  //   setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-08T16%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-08T15%3A00%3A00%2B00%3A00&subject=Holy%20Day%20of%20Obligation");
 
 
-  const HDDec1800Handler = e =>{
-    setCalendarOptions(true);
+  //   setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20221208T160000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20221208T150000Z&title=Holy%20Day%20of%20Obligation&v=60");
 
-    setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221209T000000Z%2F20221209T010000Z&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=Holy%20Day%20of%20Obligation");
-
-    setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-09T01%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-09T00%3A00%3A00%2B00%3A00&subject=Holy%20Day%20of%20Obligation");
-
-    setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-09T01%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-09T00%3A00%3A00%2B00%3A00&subject=Holy%20Day%20of%20Obligation");
+  // }
 
 
-    setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20221209T010000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20221209T000000Z&title=Holy%20Day%20of%20Obligation&v=60");
+  // const HDDec1800Handler = e =>{
+  //   setCalendarOptions(true);
 
-  }
+  //   setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221209T000000Z%2F20221209T010000Z&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=Holy%20Day%20of%20Obligation");
+
+  //   setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-09T01%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-09T00%3A00%3A00%2B00%3A00&subject=Holy%20Day%20of%20Obligation");
+
+  //   setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-09T01%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-09T00%3A00%3A00%2B00%3A00&subject=Holy%20Day%20of%20Obligation");
+
+
+  //   setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20221209T010000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20221209T000000Z&title=Holy%20Day%20of%20Obligation&v=60");
+
+  // }
 
   const ChristmasMass1700 = e =>{
     setCalendarOptions(true);
@@ -114,7 +114,7 @@ function Announcements(props) {
     <div className='Announcements-ViewPage'>
       <header>
       <h1>Announcements</h1>
-      <p>3</p>
+      <p>2</p>
       </header>
 
       <main>
@@ -129,7 +129,7 @@ function Announcements(props) {
                 </main>
             </li>           
 
-            <li>
+            {/* <li>
               <header>
                 <h2>Holy Day of Obligation</h2>
               </header>
@@ -143,7 +143,7 @@ function Announcements(props) {
               </main>
               
 
-            </li>      
+            </li>       */}
 
             <li>
               <header>
