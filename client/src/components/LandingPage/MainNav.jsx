@@ -27,7 +27,7 @@ function MainNav(props) {
       <main className='NavList-Container'>
         <ul>
           <li>
-            <a href="/under-development">Parish Staff</a>
+            <a href="/parish-staff">Parish Staff</a>
           </li>
           <li>
             <a href="/under-development">Our Ministries</a>
