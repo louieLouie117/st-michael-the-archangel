@@ -4,10 +4,10 @@ import BackHome from '../components/LandingPage/BackHome'
 function OurMinistries(props) {
   return (
     <div className='OurMinistriesViewPage'>
-      <header className='PageHeaderBack'>
+      <nav className='PageHeaderBack'>
       <BackHome></BackHome>
       <h1>Our Ministries</h1>
-      </header>
+      </nav>
 
       <main>
         <ul>

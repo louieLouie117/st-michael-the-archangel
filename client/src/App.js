@@ -6,6 +6,7 @@ import UnderDevelopment from './views/UnderDevelopment';
 import ParishStaff from './views/ParishStaff';
 import OurMinistries from './views/OurMinistries';
 import GiftShop from './views/GiftShop';
+import FaithFormation from './views/FaithFormation';
 
 // import Subscribe from './components/Subscribe';
 
@@ -20,6 +21,7 @@ function App() {
       <ParishStaff path="parish-staff"></ParishStaff>
       <OurMinistries path="our-ministries"></OurMinistries>
       <GiftShop path="gift-shop"></GiftShop>
+      <FaithFormation path="faith-formation"></FaithFormation>
     </Router>
 
         {/* <Subscribe></Subscribe> */}

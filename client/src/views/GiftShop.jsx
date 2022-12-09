@@ -4,10 +4,10 @@ import BackHome from '../components/LandingPage/BackHome'
 function GiftShop(props) {
   return (
     <div className='GiftShopPageView'>
-    <header className='PageHeaderBack'>
+    <nav className='PageHeaderBack'>
         <BackHome></BackHome>
         <h1>Gift Shop</h1>
-      </header>
+      </nav>
       <main>
         <section>
         <h2>Blessed Mother Gift Shop</h2>

@@ -76,6 +76,19 @@ ul{
 }
 
 
+.PageHeaderBack{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  background-color: #79A27D;
+  justify-items: center;font: 
+  1.3em sans-serif;
+  align-items: center;
+}
+
+
 .flex-container{
   display: flex;
   column-gap: 10px;
@@ -95,15 +108,6 @@ ul{
 
 }
 
-.PageHeaderBack{
-  display: grid;
-  grid-template-columns: 50px 1fr;
-  position: sticky;
-  top: 0;
-  padding: 10px;
-  background-color: #79A27D;
-  justify-items: center;
-}
 
 .PageHeaderBack h1 {
   margin-left: -50px;
@@ -180,4 +184,35 @@ ul{
 .GiftShopPageView>main p{
   font: 1.3em sans-serif;
   line-height: 30px
+}
+
+
+.FaithFormationViewPage{
+  display: grid;
+  text-align: left;
+}
+
+.FaithFormationViewPage>main{
+  display: grid;
+  padding: 30px;
+  row-gap: 40px;
+}
+
+.FaithFormationViewPage>main section{
+  display: grid;
+  row-gap: 20px;
+}
+
+.FaithFormationViewPage h2{
+  color: #79A27D;
+  font: 2em sans-serif;
+}
+
+.FaithFormationViewPage button{
+  background-color: #79A27D;
+  border: none;
+  height: 40px;
+  color: white;
+  font: 1em sans-serif;
+  border-radius: 7px;
 }
