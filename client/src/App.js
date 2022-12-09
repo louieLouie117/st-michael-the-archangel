@@ -4,6 +4,7 @@ import LandingPage from './views/LandingPage';
 import {Router} from '@reach/router'
 import UnderDevelopment from './views/UnderDevelopment';
 import ParishStaff from './views/ParishStaff';
+import OurMinistries from './views/OurMinistries';
 
 // import Subscribe from './components/Subscribe';
 
@@ -16,6 +17,7 @@ function App() {
       <Dashboard path="/dashboard"></Dashboard>
       <UnderDevelopment path="/under-development"></UnderDevelopment>
       <ParishStaff path="parish-staff"></ParishStaff>
+      <OurMinistries path="our-ministries"></OurMinistries>
     </Router>
 
         {/* <Subscribe></Subscribe> */}

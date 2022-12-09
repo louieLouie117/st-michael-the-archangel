@@ -4,7 +4,7 @@ import BackHome from '../components/LandingPage/BackHome'
 function ParishStaff(props) {
   return (
     <div className='ParishViewPage'>
-        <header>
+        <header className='PageHeaderBack'>
         <BackHome></BackHome>
         <h1>Parish Staff</h1>
         </header>

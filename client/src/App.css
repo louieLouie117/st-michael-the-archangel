@@ -75,6 +75,7 @@ ul{
   list-style: none;
 }
 
+
 .flex-container{
   display: flex;
   column-gap: 10px;
@@ -94,7 +95,7 @@ ul{
 
 }
 
-.ParishViewPage>header{
+.PageHeaderBack{
   display: grid;
   grid-template-columns: 50px 1fr;
   position: sticky;
@@ -102,10 +103,9 @@ ul{
   padding: 10px;
   background-color: #79A27D;
   justify-items: center;
-
 }
 
-.ParishViewPage>header h1 {
+.PageHeaderBack h1 {
   margin-left: -50px;
   color: white;
 }
@@ -128,4 +128,35 @@ ul{
 
 .ParishViewPage>main ul li h3, .ParishViewPage>main ul li h4{
   font: 1.3em sans-serif;
+}
+
+
+.OurMinistriesViewPage{
+  display: grid;
+}
+
+
+.OurMinistriesViewPage>main{
+  padding: 30px;
+  text-align: left;
+
+}
+
+.OurMinistriesViewPage>main ul{
+  display: grid;
+  row-gap: 30px;
+
+}
+.OurMinistriesViewPage>main ul li{
+  display: grid;
+  font: 1em sans-serif;
+}
+
+.OurMinistriesViewPage>main ul li h2{
+  color: #79A27D;
+}
+
+.OurMinistriesViewPage>main ul li p{
+  font: 1em sans-serif;
+  line-height: 25px;
 }
