@@ -30,14 +30,14 @@ function MainNav(props) {
             <a href="/parish-staff">Parish Staff</a>
           </li>
           <li>
-            <a href="/under-development">Our Ministries</a>
+            <a href="/our-ministries">Our Ministries</a>
           </li>
 
           <li>
-            <a href="/under-development">Faith Formation</a>
+            <a href="/faith-formation">Faith Formation</a>
           </li>
           <li>
-            <a href="/under-development">Gift Shop & Books</a>
+            <a href="/gift-shop">Gift Shop & Books</a>
           </li>
        
         </ul>

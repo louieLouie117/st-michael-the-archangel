@@ -75,6 +75,20 @@ ul{
   list-style: none;
 }
 
+
+.PageHeaderBack{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  background-color: #79A27D;
+  justify-items: center;font: 
+  1.3em sans-serif;
+  align-items: center;
+}
+
+
 .flex-container{
   display: flex;
   column-gap: 10px;
@@ -94,18 +108,8 @@ ul{
 
 }
 
-.ParishViewPage>header{
-  display: grid;
-  grid-template-columns: 50px 1fr;
-  position: sticky;
-  top: 0;
-  padding: 10px;
-  background-color: #79A27D;
-  justify-items: center;
 
-}
-
-.ParishViewPage>header h1 {
+.PageHeaderBack h1 {
   margin-left: -50px;
   color: white;
 }
@@ -128,4 +132,87 @@ ul{
 
 .ParishViewPage>main ul li h3, .ParishViewPage>main ul li h4{
   font: 1.3em sans-serif;
+}
+
+
+.OurMinistriesViewPage{
+  display: grid;
+}
+
+
+.OurMinistriesViewPage>main{
+  padding: 30px;
+  text-align: left;
+
+}
+
+.OurMinistriesViewPage>main ul{
+  display: grid;
+  row-gap: 30px;
+
+}
+.OurMinistriesViewPage>main ul li{
+  display: grid;
+  font: 1.7 sans-serif;
+}
+
+.OurMinistriesViewPage>main ul li h2{
+  color: #79A27D;
+}
+
+.OurMinistriesViewPage>main ul li p{
+  font: 1em sans-serif;
+  line-height: 25px;
+}
+
+.GiftShopPageView{
+  text-align: left;
+}
+
+.GiftShopPageView>main{
+  display: grid;
+  row-gap: 30px; 
+  padding: 30px;
+
+}
+
+.GiftShopPageView>main h2{
+  color: #79A27D;
+  font: 1.7em sans-serif;
+}
+
+.GiftShopPageView>main p{
+  font: 1.3em sans-serif;
+  line-height: 30px
+}
+
+
+.FaithFormationViewPage{
+  display: grid;
+  text-align: left;
+}
+
+.FaithFormationViewPage>main{
+  display: grid;
+  padding: 30px;
+  row-gap: 40px;
+}
+
+.FaithFormationViewPage>main section{
+  display: grid;
+  row-gap: 20px;
+}
+
+.FaithFormationViewPage h2{
+  color: #79A27D;
+  font: 2em sans-serif;
+}
+
+.FaithFormationViewPage button{
+  background-color: #79A27D;
+  border: none;
+  height: 40px;
+  color: white;
+  font: 1em sans-serif;
+  border-radius: 7px;
 }
