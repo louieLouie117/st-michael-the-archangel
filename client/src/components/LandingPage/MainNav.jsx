@@ -37,7 +37,7 @@ function MainNav(props) {
             <a href="/under-development">Faith Formation</a>
           </li>
           <li>
-            <a href="/under-development">Gift Shop & Books</a>
+            <a href="/gift-shop">Gift Shop & Books</a>
           </li>
        
         </ul>

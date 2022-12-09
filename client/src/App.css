@@ -149,7 +149,7 @@ ul{
 }
 .OurMinistriesViewPage>main ul li{
   display: grid;
-  font: 1em sans-serif;
+  font: 1.7 sans-serif;
 }
 
 .OurMinistriesViewPage>main ul li h2{
@@ -159,4 +159,25 @@ ul{
 .OurMinistriesViewPage>main ul li p{
   font: 1em sans-serif;
   line-height: 25px;
+}
+
+.GiftShopPageView{
+  text-align: left;
+}
+
+.GiftShopPageView>main{
+  display: grid;
+  row-gap: 30px; 
+  padding: 30px;
+
+}
+
+.GiftShopPageView>main h2{
+  color: #79A27D;
+  font: 1.7em sans-serif;
+}
+
+.GiftShopPageView>main p{
+  font: 1.3em sans-serif;
+  line-height: 30px
 }

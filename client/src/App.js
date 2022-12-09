@@ -5,6 +5,7 @@ import {Router} from '@reach/router'
 import UnderDevelopment from './views/UnderDevelopment';
 import ParishStaff from './views/ParishStaff';
 import OurMinistries from './views/OurMinistries';
+import GiftShop from './views/GiftShop';
 
 // import Subscribe from './components/Subscribe';
 
@@ -18,6 +19,7 @@ function App() {
       <UnderDevelopment path="/under-development"></UnderDevelopment>
       <ParishStaff path="parish-staff"></ParishStaff>
       <OurMinistries path="our-ministries"></OurMinistries>
+      <GiftShop path="gift-shop"></GiftShop>
     </Router>
 
         {/* <Subscribe></Subscribe> */}
