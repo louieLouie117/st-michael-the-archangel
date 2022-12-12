@@ -5,6 +5,7 @@ import Nav from '../components/LandingPage/MainNav'
 import LandingPageStyles from '../modules/LandingPageStyles.css'
 import Announcements from '../components/LandingPage/Announcements'
 import Sacraments from '../components/LandingPage/Sacraments'
+import FeedBack from '../components/LandingPage/FeedBack'
 
 
 function LandingPage(props) {
@@ -16,6 +17,7 @@ function LandingPage(props) {
         <Schedule></Schedule>
         <Announcements></Announcements>
         <Sacraments></Sacraments>
+        <FeedBack></FeedBack>
     </div>
 
   )
