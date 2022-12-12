@@ -17,7 +17,7 @@ function FeedBack(props) {
             </a>
         </main>
         <aside>
-            <p>Website Designed by <a href="https://www.luiscardona.app/" target="_blank"> LC Solutions</a></p>
+            <p>Website Designed by <a href="https://www.luiscardona.app/" target="blank"> LC Solutions</a></p>
         </aside>
     </div>
   )
