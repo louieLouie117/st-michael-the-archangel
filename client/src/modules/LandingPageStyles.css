@@ -218,6 +218,7 @@ body{
 }
 
 .Announcements-ViewPage>main ul li{
+    display: grid;
     background-color: white;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.103);
     min-width: 280px;
@@ -238,7 +239,6 @@ body{
 .Announcements-ViewPage>main ul li header{
     font: 1em sans-serif;
     color: #67886A;
-    padding: 20px 0;
 
 }
 
