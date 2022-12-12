@@ -23,7 +23,7 @@ function ParishStaff(props) {
                     <aside>
                         <h3>Tom Torson</h3>
                         <h4>931-241-0910</h4>
-                        <h4>ttorsom@aol.com</h4>
+                        <h4>ttorson@aol.com</h4>
                     </aside>
 
                     <aside>

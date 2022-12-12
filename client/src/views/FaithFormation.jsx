@@ -22,7 +22,6 @@ function FaithFormation(props) {
                 <button>VBS Registration</button>
                 <button>Faith Formation Registration</button>
                 <button>Youth 2022 Registration</button>
-
             </section>
 
         </main>
