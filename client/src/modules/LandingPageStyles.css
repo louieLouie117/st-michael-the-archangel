@@ -330,6 +330,34 @@ body{
     text-align: left;
 }
 
+.FeedBack-Container{
+    display: grid;
+    row-gap: 20px;
+    font: 1.3em sans-serif;
+    padding: 30px;
+}
+
+.FeedBack-Container>header h1{
+    display: none;
+}
+
+.FeedBack-Container>main{
+    display: flex;
+    column-gap: 10px;
+    justify-self: center;
+}
+
+.FeedBack-Container>main button{
+    height: 35px;
+    width: 70px;
+    background-color: #67886A;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
 @media screen and (min-width: 1100px) {
 .Sacraments-Container>ul li {
     grid-template-columns: 1fr 1fr;
