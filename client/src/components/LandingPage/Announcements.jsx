@@ -10,22 +10,22 @@ function Announcements(props) {
   const [officeEventLink, setOfficeEventLink] = useState();
 
 
-  const AdventNoticeHandler = e =>{
-      console.log("button was click")
-      setCalendarOptions(true);
+  // const AdventNoticeHandler = e =>{
+  //     console.log("button was click")
+  //     setCalendarOptions(true);
 
-      setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-15T00%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-14T23%3A00%3A00%2B00%3A00&subject=Advent%20Reconciliation&location=St Micheal The Archangel");
-
-
-      setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&text=Advent Reconciliation&dates=20221214T230000Z%2F20221215T000000Z");
-
-      setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20221215T000000Z&st=20221214T230000Z&v=60&&title=Advent Reconciliation");
+  //     setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-15T00%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-14T23%3A00%3A00%2B00%3A00&subject=Advent%20Reconciliation&location=St Micheal The Archangel");
 
 
-      setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-15T00%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=Advent Reconciliation&startdt=2022-12-14T23%3A00%3A00%2B00%3A00&location=St Micheal The Archangel&subject=Advent Reconciliation");
+  //     setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&text=Advent Reconciliation&dates=20221214T230000Z%2F20221215T000000Z");
+
+  //     setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20221215T000000Z&st=20221214T230000Z&v=60&&title=Advent Reconciliation");
 
 
-  }
+  //     setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-15T00%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=Advent Reconciliation&startdt=2022-12-14T23%3A00%3A00%2B00%3A00&location=St Micheal The Archangel&subject=Advent Reconciliation");
+
+
+  // }
 
 
 
