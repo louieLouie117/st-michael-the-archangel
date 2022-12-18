@@ -81,52 +81,19 @@ function Announcements(props) {
     
   }
 
-  const BreakfastWithSanta = e =>{
-      setCalendarOptions(true);
 
-    setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221217T153000Z%2F20221217T180000Z&details=For%20more%20information%20please%20call%20Emma.&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=Breakfast%20with%20Santa");
-
-    setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&body=For%20more%20information%20please%20call%20Emma.&enddt=2022-12-17T18%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-17T15%3A30%3A00%2B00%3A00&subject=Breakfast%20with%20Santa");
-
-    setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&body=For%20more%20information%20please%20call%20Emma.&enddt=2022-12-17T18%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-17T15%3A30%3A00%2B00%3A00&subject=Breakfast%20with%20Santa");
-
-
-    setYahooEventLink("https://calendar.yahoo.com/?desc=For%20more%20information%20please%20call%20Emma.&dur=&et=20221217T180000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20221217T153000Z&title=Breakfast%20with%20Santa&v=60");
-    
-  }
 
 
   return (
     <div className='Announcements-ViewPage'>
       <header>
       <h1>Announcements</h1>
-      <p>3</p>
+      <p>1</p>
       </header>
 
       <main>
           <ul>
-            <li>
-              <div>
-              <header>
-                <h2>Advent Reconciliation</h2>
-              </header>
-                <main>
-                <p>Wednesday December 14th 5:00pm</p>
-                <button onClick={AdventNoticeHandler}>Add to Calendar</button>
-                </main>
-                </div>
-                <div>
-                <header>
-                <h2>Breakfast with Santa</h2>
-              </header>
-                <main>
-                <p>Saturday December 17th 9:30 am</p>
-                <button onClick={BreakfastWithSanta}>Add to Calendar</button>
-                </main>
-                </div>
-            </li>   
 
-              
 
             {/* <li>
               <header>
