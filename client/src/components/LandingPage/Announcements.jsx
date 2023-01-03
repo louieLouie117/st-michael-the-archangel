@@ -1,13 +1,13 @@
-// import React, {useState}from 'react'
+import React, {useState}from 'react'
 
 function Announcements(props) {
 
-  // const [calendarOptions, setCalendarOptions] = useState(false);
+  const [calendarOptions, setCalendarOptions] = useState(false);
 
-  // const [outlookEventLink, setOutlookEventLink ] = useState();
-  // const [gmailEventLink, setGmailEventLink] = useState ();
-  // const [yahooEventLink, setYahooEventLink] = useState();
-  // const [officeEventLink, setOfficeEventLink] = useState();
+  const [outlookEventLink, setOutlookEventLink ] = useState();
+  const [gmailEventLink, setGmailEventLink] = useState ();
+  const [yahooEventLink, setYahooEventLink] = useState();
+  const [officeEventLink, setOfficeEventLink] = useState();
 
 
   // const AdventNoticeHandler = e =>{
@@ -31,64 +31,39 @@ function Announcements(props) {
 
 
 
-  // const ChristmasMass1700 = e =>{
-  //   setCalendarOptions(true);
+  const PotluckHandler = e =>{
+    setCalendarOptions(true);
 
-  //   setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221224T230000Z%2F20221225T000000Z&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=Christmas%20Mass");
+    setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230108T000000Z%2F20230108T010000Z&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=Potluck%20After%20Mass");
 
-  //   setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-25T00%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-24T23%3A00%3A00%2B00%3A00&subject=Christmas%20Mass");
+    setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2023-01-08T01%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-01-08T00%3A00%3A00%2B00%3A00&subject=Potluck%20After%20Mass");
 
-  //   setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-25T00%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-24T23%3A00%3A00%2B00%3A00&subject=Christmas%20Mass");
-
-
-  //   setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20221225T000000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20221224T230000Z&title=Christmas%20Mass&v=60");
-
-  // }
-
-  // const ChristmasMass1200 = e =>{
-  //   setCalendarOptions(true);
-
-  //   setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221225T060000Z%2F20221225T070000Z&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=Christmas%20Mass");
-
-  //   setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-25T07%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-25T06%3A00%3A00%2B00%3A00&subject=Christmas%20Mass");
-
-  //   setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-25T07%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-25T06%3A00%3A00%2B00%3A00&subject=Christmas%20Mass");
+    setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2023-01-08T01%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-01-08T00%3A00%3A00%2B00%3A00&subject=Potluck%20After%20Mass");
 
 
-  //   setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20221225T070000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20221225T060000Z&title=Christmas%20Mass&v=60");
-  // }
-  // const ChristmasMass830 = e =>{
-  //   setCalendarOptions(true);
+    setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20230108T010000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20230108T000000Z&title=Potluck%20After%20Mass&v=60");
 
-  //   setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221225T143000Z%2F20221225T153000Z&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=Christmas%20Mass");
+  }
 
-  //   setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-25T15%3A30%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-25T14%3A30%3A00%2B00%3A00&subject=Christmas%20Mass");
+  const RCIAHandler = e =>{
+    setCalendarOptions(true);
 
-  //   setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-25T15%3A30%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-25T14%3A30%3A00%2B00%3A00&subject=Christmas%20Mass");
+    setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230105T010000Z%2F20230105T020000Z&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=RCIA%20Rest");
 
+    setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2023-01-05T02%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-01-05T01%3A00%3A00%2B00%3A00&subject=RCIA%20Rest");
 
-  //   setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20221225T153000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20221225T143000Z&title=Christmas%20Mass&v=60");
-  // }
-  // const ChristmasMass1130 = e =>{
-  //   setCalendarOptions(true);
-
-  //   setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221225T173000Z%2F20221225T183000Z&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=Christmas%20Mass");
-
-  //   setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-25T18%3A30%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-25T17%3A30%3A00%2B00%3A00&subject=Christmas%20Mass");
-
-  //   setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-25T18%3A30%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-25T17%3A30%3A00%2B00%3A00&subject=Christmas%20Mass");
+    setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2023-01-05T02%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-01-05T01%3A00%3A00%2B00%3A00&subject=RCIA%20Rest");
 
 
-  //   setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20221225T183000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20221225T173000Z&title=Christmas%20Mass&v=60");
-    
-  // }
-
+    setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20230105T020000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20230105T010000Z&title=RCIA%20Rest&v=60");
+  }
+ 
 
   return (
     <div className='Announcements-ViewPage'>
       <header>
       <h1>Announcements</h1>
-      <p>0</p>
+      <p>2</p>
       </header>
 
       <main>
@@ -107,38 +82,45 @@ function Announcements(props) {
               <button onClick={HDDec1800Handler}>Add to Calendar</button>
 
               </main>
-              
 
             </li>       */}
 
-            {/* <li>
+            <li>
+
+            <div>           
+                <header>
+                  <h2>RCIA Restarts</h2>
+                </header>
+                <main>
+                  <p>Wednesday, January 4, 2023 7:00 pm</p>
+                  <button onClick={RCIAHandler}>Add to Calendar</button>
+                </main>
+
+              </div>
+
+              <div>
               <header>
-                <h2>Christmas Mass Schedule</h2>
+                <h2>Potluck After Mass</h2>
               </header>
+
               <main>
-              <p>Saturday December 24th 5:00 pm</p>
-              <button onClick={ChristmasMass1700}>Add to Calendar</button>
-
-              <p>Sunday December 25th 12:00 am</p>
-              <button onClick={ChristmasMass1200}>Add to Calendar</button>
-
-              <p>Sunday December 25th 8:30 am</p>
-              <button onClick={ChristmasMass830}>Add to Calendar</button>
-
-              <p>Sunday December 25th 11:30 am</p>
-              <button onClick={ChristmasMass1130}>Add to Calendar</button>
-
+                <p>Saturday January 7, 2023 6:00 pm</p>
+                <button onClick={PotluckHandler}>Add to Calendar</button>
               </main>
+
+              </div>
+
+             
               
 
-            </li>         */}
+            </li>        
           </ul>
 
         
 
       </main>
 
-      {/* <aside style={{display: calendarOptions ? "grid" : "none",
+      <aside style={{display: calendarOptions ? "grid" : "none",
                     left: calendarOptions ? "0px" : "-300px",
                     }}>
 
@@ -161,7 +143,7 @@ function Announcements(props) {
                 </a>
 
                 
-          </aside> */}
+          </aside>
     </div>
   )
 }
