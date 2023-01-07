@@ -10,29 +10,17 @@ function Announcements(props) {
   const [officeEventLink, setOfficeEventLink] = useState();
 
 
-  // const AdventNoticeHandler = e =>{
-  //     console.log("button was click")
-  //     setCalendarOptions(true);
 
-  //     setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-15T00%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-14T23%3A00%3A00%2B00%3A00&subject=Advent%20Reconciliation&location=St Micheal The Archangel");
+  const AddToCalender = e =>{
 
+    console.log(e.target.id)
 
-  //     setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&text=Advent Reconciliation&dates=20221214T230000Z%2F20221215T000000Z");
-
-  //     setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20221215T000000Z&st=20221214T230000Z&v=60&&title=Advent Reconciliation");
+    setCalendarOptions(false);
 
 
-  //     setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2022-12-15T00%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=Advent Reconciliation&startdt=2022-12-14T23%3A00%3A00%2B00%3A00&location=St Micheal The Archangel&subject=Advent Reconciliation");
-
-
-  // }
-
-
-
-
-
-  const PotluckHandler = e =>{
+    if(e.target.id === "Potluck"){
     setCalendarOptions(true);
+    
 
     setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230108T000000Z%2F20230108T010000Z&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=Potluck%20After%20Mass");
 
@@ -42,21 +30,29 @@ function Announcements(props) {
 
 
     setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20230108T010000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20230108T000000Z&title=Potluck%20After%20Mass&v=60");
-
   }
 
-  const RCIAHandler = e =>{
+
+  if(e.target.id === "HolyLandDiscovery"){
     setCalendarOptions(true);
 
-    setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230105T010000Z%2F20230105T020000Z&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=RCIA%20Rest");
+    setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230210%2F20230218&details=Holy%20Land%20Discovery%20-%20Faith-Based%20Travel%20%0AFebruary%2010%20-%2017%2C%202023%0APrices%20start%20at%20%241819%20per%20person%20based%20on%20double%20occupancy%20%0APlease%20see%20Trip%20Details%20-%20Catholic%20Cruises%20and%20Tours%20%0A%28vacationport.net%29%20or%20Call%20Brian%20at%20Catholic%20Cruises%20and%20Tours%20%0Aat%20860-399-1785%20for%20more%20information.&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=Holy%20Land%20Discovery");
 
-    setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2023-01-05T02%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-01-05T01%3A00%3A00%2B00%3A00&subject=RCIA%20Rest");
+    setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=true&body=Holy%20Land%20Discovery%20-%20Faith-Based%20Travel%20%0AFebruary%2010%20-%2017%2C%202023%0APrices%20start%20at%20%241819%20per%20person%20based%20on%20double%20occupancy%20%0APlease%20see%20Trip%20Details%20-%20Catholic%20Cruises%20and%20Tours%20%0A%28vacationport.net%29%20or%20Call%20Brian%20at%20Catholic%20Cruises%20and%20Tours%20%0Aat%20860-399-1785%20for%20more%20information.&enddt=2023-02-18T06%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-02-10T06%3A00%3A00%2B00%3A00&subject=Holy%20Land%20Discovery");
 
-    setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2023-01-05T02%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-01-05T01%3A00%3A00%2B00%3A00&subject=RCIA%20Rest");
+    setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=true&body=Holy%20Land%20Discovery%20-%20Faith-Based%20Travel%20%0AFebruary%2010%20-%2017%2C%202023%0APrices%20start%20at%20%241819%20per%20person%20based%20on%20double%20occupancy%20%0APlease%20see%20Trip%20Details%20-%20Catholic%20Cruises%20and%20Tours%20%0A%28vacationport.net%29%20or%20Call%20Brian%20at%20Catholic%20Cruises%20and%20Tours%20%0Aat%20860-399-1785%20for%20more%20information.&enddt=2023-02-18T06%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-02-10T06%3A00%3A00%2B00%3A00&subject=Holy%20Land%20Discovery");
 
 
-    setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20230105T020000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20230105T010000Z&title=RCIA%20Rest&v=60");
+    setYahooEventLink("https://calendar.yahoo.com/?desc=Holy%20Land%20Discovery%20-%20Faith-Based%20Travel%20%0AFebruary%2010%20-%2017%2C%202023%0APrices%20start%20at%20%241819%20per%20person%20based%20on%20double%20occupancy%20%0APlease%20see%20Trip%20Details%20-%20Catholic%20Cruises%20and%20Tours%20%0A%28vacationport.net%29%20or%20Call%20Brian%20at%20Catholic%20Cruises%20and%20Tours%20%0Aat%20860-399-1785%20for%20more%20information.&dur=allday&et=20230218&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20230210&title=Holy%20Land%20Discovery&v=60");
   }
+  
+  
+
+
+
+  }
+
+
  
 
   return (
@@ -70,50 +66,38 @@ function Announcements(props) {
           <ul>
 
 
-            {/* <li>
-              <header>
-                <h2>Holy Day of Obligation</h2>
-              </header>
-              <main>
-              <p>Thursday December 8th 9:00 am</p>
-              <button onClick={HDDec900Handler}>Add to Calendar</button>
-
-              <p>Thursday December 8th 6:00 pm</p>
-              <button onClick={HDDec1800Handler}>Add to Calendar</button>
-
-              </main>
-
-            </li>       */}
 
             <li>
 
-            <div>           
-                <header>
-                  <h2>RCIA Restarts</h2>
-                </header>
-                <main>
-                  <p>Wednesday, January 4, 2023 7:00 pm</p>
-                  <button onClick={RCIAHandler}>Add to Calendar</button>
-                </main>
 
-              </div>
-
-              <div>
               <header>
                 <h2>Potluck After Mass</h2>
+              <p>Saturday January 7, 2023 6:00 pm</p>
+
               </header>
 
               <main>
-                <p>Saturday January 7, 2023 6:00 pm</p>
-                <button onClick={PotluckHandler}>Add to Calendar</button>
+
+                <button id="Potluck" onClick={AddToCalender}>Add to Calendar</button>
               </main>
 
-              </div>
 
-             
-              
+              </li>        
 
-            </li>        
+
+              <li>
+              <header>
+                <h2>Holy Land Discovery</h2>
+              <p>February 10-17, 2023</p>
+
+              </header>
+
+              <main>
+                <button id="HolyLandDiscovery" onClick={AddToCalender}>Add to Calendar</button>
+              </main>
+              </li>
+
+            
           </ul>
 
         
@@ -125,25 +109,26 @@ function Announcements(props) {
                     }}>
 
                 <h2>Selected your calender</h2>
+
               
-                <a href={outlookEventLink} title="Save Event in my Calendar" target="blank">
-                  <button>Outlook</button>
+                <a href={outlookEventLink} onClick={AddToCalender} title="Save Event in my Calendar" target="blank">Outlook
                 </a>
 
-                <a href={gmailEventLink} title="Save Event in my Calendar" target="blank">
-                  <button>Gmail</button>
+                <a href={gmailEventLink} onClick={AddToCalender}  title="Save Event in my Calendar" target="blank">Gmail
                 </a>
 
-                <a href={yahooEventLink} title="Save Event in my Calendar" target="blank">
-                  <button>Yahoo</button>
+                <a href={yahooEventLink} onClick={AddToCalender} title="Save Event in my Calendar" target="blank">Yahoo
                 </a>
 
-                <a href={officeEventLink} title="Save Event in my Calendar" target="blank">
-                  <button>Office</button>
+                <a href={officeEventLink} onClick={AddToCalender} title="Save Event in my Calendar" target="blank">Office
                 </a>
+
+          <button  onClick={AddToCalender} > close</button>
+
 
                 
           </aside>
+
     </div>
   )
 }
