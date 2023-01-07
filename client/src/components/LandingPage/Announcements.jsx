@@ -59,7 +59,7 @@ function Announcements(props) {
     <div className='Announcements-ViewPage'>
       <header>
       <h1>Announcements</h1>
-      <p>2</p>
+      <p>4</p>
       </header>
 
       <main>
@@ -95,6 +95,29 @@ function Announcements(props) {
               <main>
                 <button id="HolyLandDiscovery" onClick={AddToCalender}>Add to Calendar</button>
               </main>
+              </li>
+
+
+              
+              <li>
+              <header>
+                <h2>CCD</h2>
+              <p>Every Sunday 10:00 AM</p>
+
+              </header>
+
+            
+              </li>
+
+
+              <li>
+              <header>
+              <h2>RCIA</h2>
+              <p>Every Wednesday 7:00 PM</p>
+
+              </header>
+
+            
               </li>
 
             
