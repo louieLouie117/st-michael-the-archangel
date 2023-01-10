@@ -17,22 +17,6 @@ function Announcements(props) {
 
     setCalendarOptions(false);
 
-
-    if(e.target.id === "Potluck"){
-    setCalendarOptions(true);
-    
-
-    setGmailEventLink("https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230108T000000Z%2F20230108T010000Z&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&text=Potluck%20After%20Mass");
-
-    setOutlookEventLink("https://outlook.live.com/calendar/0/deeplink/compose?allday=false&enddt=2023-01-08T01%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-01-08T00%3A00%3A00%2B00%3A00&subject=Potluck%20After%20Mass");
-
-    setOfficeEventLink("https://outlook.office.com/calendar/0/deeplink/compose?allday=false&enddt=2023-01-08T01%3A00%3A00%2B00%3A00&location=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-01-08T00%3A00%3A00%2B00%3A00&subject=Potluck%20After%20Mass");
-
-
-    setYahooEventLink("https://calendar.yahoo.com/?dur=&et=20230108T010000Z&in_loc=448%20State%20Line%20Rd%20Oak%20Grove%20KY%2042262&st=20230108T000000Z&title=Potluck%20After%20Mass&v=60");
-  }
-
-
   if(e.target.id === "HolyLandDiscovery"){
     setCalendarOptions(true);
 
@@ -58,47 +42,26 @@ function Announcements(props) {
   return (
     <div className='Announcements-ViewPage'>
       <header>
-      <h1>Announcements</h1>
-      <p>4</p>
+      <h1>Events</h1>
+      <p>3</p>
       </header>
 
       <main>
           <ul>
 
-
-
-            <li>
-
-
-              <header>
-                <h2>Potluck After Mass</h2>
-              <p>Saturday January 7, 2023 6:00 pm</p>
-
-              </header>
-
-              <main>
-
-                <button id="Potluck" onClick={AddToCalender}>Add to Calendar</button>
-              </main>
-
-
-              </li>        
-
-
               <li>
               <header>
-                <h2>Holy Land Discovery</h2>
+                <h2>Holy Land Discovery Trip</h2>
               <p>February 10-17, 2023</p>
 
               </header>
 
               <main>
+                <p>Holy Land Discovery - Faith-Based Travel February 10 - 17, 2023 Prices start at $1819 per person based on double occupancy Please see Trip Details - Catholic Cruises and Tours (vacationport.net) or Call Brian at Catholic Cruises and Tours at 860-399-1785 for more information.</p>
                 <button id="HolyLandDiscovery" onClick={AddToCalender}>Add to Calendar</button>
               </main>
               </li>
 
-
-              
               <li>
               <header>
                 <h2>CCD</h2>
