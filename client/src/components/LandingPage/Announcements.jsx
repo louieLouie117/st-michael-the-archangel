@@ -79,7 +79,7 @@ function Announcements(props) {
               <li>
               <header>
               <h2>Pray Group</h2>
-              <p>Every Tuesday 7:00 AM</p>
+              <p>Every Tuesday 9:00 AM</p>
               </header>
 
 
