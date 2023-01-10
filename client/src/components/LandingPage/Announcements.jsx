@@ -42,8 +42,8 @@ function Announcements(props) {
   return (
     <div className='Announcements-ViewPage'>
       <header>
-      <h1>Events</h1>
-      <p>3</p>
+      <h1>Parish Events</h1>
+      <p>4</p>
       </header>
 
       <main>
@@ -51,11 +51,9 @@ function Announcements(props) {
 
               <li>
               <header>
-                <h2>Holy Land Discovery Trip</h2>
-              <p>February 10-17, 2023</p>
-
+                <h2>Holy Land Discovery</h2>
+                <p>February 10-17, 2023</p>
               </header>
-
               <main>
                 <p>Holy Land Discovery - Faith-Based Travel February 10 - 17, 2023 Prices start at $1819 per person based on double occupancy Please see Trip Details - Catholic Cruises and Tours (vacationport.net) or Call Brian at Catholic Cruises and Tours at 860-399-1785 for more information.</p>
                 <button id="HolyLandDiscovery" onClick={AddToCalender}>Add to Calendar</button>
@@ -63,24 +61,31 @@ function Announcements(props) {
               </li>
 
               <li>
-              <header>
+                <header>
                 <h2>CCD</h2>
-              <p>Every Sunday 10:00 AM</p>
-
-              </header>
-
-            
+                <p>Every Sunday at 10:00 AM</p>
+                </header>
               </li>
 
 
               <li>
               <header>
               <h2>RCIA</h2>
-              <p>Every Wednesday 7:00 PM</p>
+              <p>Every Wednesday at 7:00 PM</p>
+              </header>
+              </li>
 
+              
+              <li>
+              <header>
+              <h2>Pray Group</h2>
+              <p>Every Tuesday 7:00 AM</p>
               </header>
 
-            
+
+              <main>
+                <p>All are welcome to come join the Prayer Group. Prayer Group meet in the church.</p>
+              </main>
               </li>
 
             
