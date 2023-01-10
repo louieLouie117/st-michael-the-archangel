@@ -260,6 +260,7 @@ body{
 
 .Announcements-ViewPage>main ul li main{
     display: grid;
+    row-gap: 10px;
     height: auto;
 }
 
